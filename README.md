@@ -1,16 +1,10 @@
 # settle
+Features:
 
-A new Flutter project.
+Direct Bank Account Integration: Leverages existing bank accounts for seamless transfers, eliminating the need for top-ups or separate wallets.
 
-## Getting Started
+Instant Transfers: Utilizes real-time settlement for immediate transfer of funds between users.
 
-This project is a starting point for a Flutter application.
+Robust Security: Employs industry-standard security protocols to ensure the safety and privacy of user data and financial transactions.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+User-Friendly Interface: Designed with an intuitive interface for a smooth and effortless user experience.
