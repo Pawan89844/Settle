@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:settle/module/home/view/home_view.dart';
+import 'package:settle/module/onboarding/views/onboarding.dart';
 
 class SettleApp extends StatelessWidget {
   const SettleApp({super.key});
@@ -13,7 +13,7 @@ class SettleApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomeView(),
+      home: OnBoarding(),
     );
   }
 }
