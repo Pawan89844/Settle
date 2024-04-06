@@ -7,18 +7,23 @@ class AppText extends StatelessWidget {
   final FontWeight? fontWeight;
   final double? fontSize;
   final TextAlign? textAlign;
+  final Alignment? alignment;
   const AppText(this.data,
       {super.key,
       this.color,
       this.fontWeight,
       this.fontSize,
+      this.alignment,
       this.textAlign = TextAlign.center});
 
   @override
   Widget build(BuildContext context) {
-    return Text(data,
-        textAlign: textAlign,
-        style: GoogleFonts.roboto(
-            color: color, fontWeight: fontWeight, fontSize: fontSize));
+    return Container(
+      alignment: alignment,
+      child: Text(data,
+          textAlign: textAlign,
+          style: GoogleFonts.roboto(
+              color: color, fontWeight: fontWeight, fontSize: fontSize)),
+    );
   }
 }

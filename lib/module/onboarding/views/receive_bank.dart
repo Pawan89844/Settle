@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:settle/module/home/view/home_view.dart';
 import 'package:settle/module/onboarding/views/welcome_screen.dart';
 
 class ReceiveBank extends StatelessWidget {
@@ -9,7 +10,7 @@ class ReceiveBank extends StatelessWidget {
     return PageComponent(
       heading: 'Receive Now',
       subtitle: 'Get payments instantly from friends, family, or anyone',
-      onPressed: () {},
+      onPressed: () => Navigator.push(context, HomeView.page()),
       buttonName: 'Continue',
     );
   }
